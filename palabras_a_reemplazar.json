@@ -1,0 +1,333 @@
+{
+    "palabras_a_reemplazar": {
+        "Weapons": "Armas",
+        "Weapon": "Arma",
+
+        "Sword": {
+            "1★": {
+                "Dull Blade": "Hoja Desafilada"
+            },
+            "2★": {
+                "Silver Sword": "Espada Plateada"
+            },
+            "3★": {
+                "Cool Steel": "Hoja Fría",
+                "Harbinger of Dawn": "Espada del Alba",
+                "Traveler's Handy Sword": "Espada del Viajero",
+                "Traveler´s Handy Sword": "Espada del Viajero",
+                "Dark Iron Sword": "Espada de Hierro Oscuro",
+                "Fillet Blade": "Hoja de Filetear",
+                "Skyrider Sword": "Espada Surcacielos"
+            },
+            "4★": {
+                "Favonius Sword": "Espada de Favonius",
+                "The Flute": "Flauta",
+                "Sacrificial Sword": "Espada de Sacrificio",
+                "Royal Longsword": "Espada Real Larga",
+                "Lion's Roar": "Rugido del León",
+                "Lion´s Roar": "Rugido del León",
+                "Prototype Rancour": "Prototipo Rencor",
+                "Iron Sting": "Espina de Hierro",
+                "Blackcliff Longsword": "Espada Larga del Peñasco Oscuro",
+                "The Black Sword": "Espada Negra",
+                "The Alley Flash": "Destello en la Oscuridad",
+                "Sword of Descension": "Espada del Descenso",
+                "Festering Desire": "Deseo Ponzoñoso",
+                "Amenoma Kageuchi": "Espada Amenoma Gemela",
+                "Cinnabar Spindle": "Huso de Cinabrio",
+                "Kagotsurube Isshin": "Kagotsurube Isshin",
+                "Sapwood Blade": "Espada de Madera",
+                "Xiphos' Moonlight": "Luz Lunar de Xifos",
+                "Xiphos´ Moonlight": "Luz Lunar de Xifos",
+                "Toukabou Shigure": "Diluvio Florífero",
+                "Wolf-Fang": "Colmillo Lupino",
+                "Finale of the Deep": "Réquiem Abisal",
+                "Fleuve Cendre Ferryman": "Vado del Río Ceniciento",
+                "The Dockhand's Assistant": "Sable de la Dársena",
+                "The Dockhand´s Assistant": "Sable de la Dársena",
+                "Sword of Narzissenkreuz": "Espada Cruz de los Narcisos"
+            },
+            "5★": {
+                "Aquila Favonia": "Aquila Favonia",
+                "Skyward Blade": "Hoja Afilada Celestial",
+                "Freedom-Sworn": "Juramento por la Libertad",
+                "Summit Shaper": "Rompemontañas",
+                "Primordial Jade Cutter": "Cortador de Jade Primordial",
+                "Mistsplitter Reforged": "Reflejo de las Tinieblas",
+                "Haran Geppaku Futsu": "Luna Ondulante de Futsu",
+                "Key of Khaj-Nisut": "Llave de la Coronación",
+                "Light of Foliar Incision": "Clorofilo Refulgente",
+                "Splendor of Tranquil Waters": "Fulgor de las Aguas Calmas"
+            }
+        },
+        "Claymore": {
+            "1★": {
+                "Waster Greatsword": "Gran Espada del Guerrero"
+            },
+            "2★": {
+                "Old Merc's Pal": "Espada del Mercenario",
+                "Old Merc´s Pal": "Espada del Mercenario"
+            },
+            "3★": {
+                "Ferrous Shadow": "Sombra Férrea",
+                "Bloodtainted Greatsword": "Gran Espada Sangrienta",
+                "White Iron Greatsword": "Espada de Hierro Blanco",
+                "Debate Club": "Garrote del Debate",
+                "Skyrider Greatsword": "Gran Espada Surcacielos"
+            },
+            "4★": {
+                "Favonius Greatsword": "Gran Espada de Favonius",
+                "The Bell": "Espada del Tiempo",
+                "Sacrificial Greatsword": "Gran Espada de Sacrificio",
+                "Royal Greatsword": "Gran Espada Real",
+                "Rainslasher": "Segadora de la Lluvia",
+                "Prototype Archaic": "Prototipo Arcaico",
+                "Whiteblind": "Sombra Blanca",
+                "Blackcliff Slasher": "Gran Hoja del Peñasco Oscuro",
+                "Serpent Spine": "Médula de la Serpiente Marina",
+                "Lithic Blade": "Espada Lítica",
+                "Snow-Tombed Starsilver": "Argento Estelar de las Nieves",
+                "Luxurious Sea-Lord": "Rey de los Mares",
+                "Katsuragikiri Nagamasa": "Asesinato de Katsuragi",
+                "Makhaira Aquamarine": "Májaira Aguamarina",
+                "Akuoumaru": "Rey del Mal",
+                "Forest Regalia": "Espada Real del Bosque",
+                "Mailed Flower": "Fierro Floriorlado",
+                "Talking Stick": "Garrote del Diálogo",
+                "Tidal Shadow": "Sombra de la Marea",
+                "\"Ultimate Overlord's Mega Magic Sword\"": "Superespada Mágica Suprema",
+                "Ultimate Overlord's Mega Magic Sword": "Superespada Mágica Suprema",
+                "\"Ultimate Overlord´s Mega Magic Sword\"": "Superespada Mágica Suprema",
+                "Ultimate Overlord´s Mega Magic Sword": "Superespada Mágica Suprema",
+                "Portable Power Saw": "Motosierra Transportable"
+            },
+            "5★": {
+                "Skyward Pride": "Orgullo Celestial",
+                "Wolf's Gravestone": "Lápida del Lobo",
+                "Wolf´s Gravestone": "Lápida del Lobo",
+                "Song of Broken Pines": "Oda de los Pinos",
+                "The Unforged": "Espada de la Desidia",
+                "Redhorn Stonethresher": "Espadón Cornirrojo",
+                "Beacon of the Reed Sea": "Emblema del Mar de Juncos",
+                "Verdict": "Sentenciadora"
+            }
+        },
+        "Polearm": {
+            "1★": {
+                "Beginner's Protector": "Lanza del Principiante",
+                "Beginner´s Protector": "Lanza del Principiante"
+            },
+            "2★": {
+                "Iron Point": "Punta de Hierro"
+            },
+            "3★": {
+                "White Tassel": "Borla Blanca",
+                "Halberd": "Alabarda",
+                "Black Tassel": "Borla Negra"
+            },
+            "4★": {
+                "Dragon's Bane": "Perdición del Dragón",
+                "Dragon´s Bane": "Perdición del Dragón",
+                "Prototype Starglitter": "Prototipo Estelar",
+                "Crescent Pike": "Pica Luna Creciente",
+                "Blackcliff Pole": "Lanza del Peñasco Oscuro",
+                "Deathmatch": "Lanza del Duelo",
+                "Lithic Spear": "Lanza Lítica",
+                "Favonius Lance": "Lanza de Favonius",
+                "Royal Spear": "Lanza de Caza Real",
+                "Dragonspine Spear": "Lanza de Espinadragón",
+                "Kitain Cross Spear": "Cruz de Kitain",
+                "\"The Catch\"": "La Captura",
+                "The Catch": "La Captura",
+                "Wavebreaker's Fin": "Aleta Cortaolas",
+                "Wavebreaker´s Fin": "Aleta Cortaolas",
+                "Moonpiercer": "Perforalunas",
+                "Missive Windspear": "Alabarda del Viento Epistolar",
+                "Ballad of the Fjords": "Balada de los Fiordos",
+                "Rightful Reward": "Retribución de la Justicia",
+                "Prospector's Drill": "Taladradora de Prospección",
+                "Prospector´s Drill": "Taladradora de Prospección"
+            },
+            "5★": {
+                "Staff of Homa": "Báculo de Homa",
+                "Skyward Spine": "Púa Celestial",
+                "Vortex Vanquisher": "Lanza Perforanubes",
+                "Primordial Jade Winged-Spear": "Halcón de Jade",
+                "Calamity Queller": "Pacificadora del Desastre",
+                "Engulfing Lightning": "Luz del Segador",
+                "Staff of the Scarlet Sands": "Báculo de las Arenas Escarlatas"
+            }
+        },
+        "Catalyst": {
+            "1★": {
+                "Apprentice's Notes": "Apuntes del Aprendiz",
+                "Apprentice´s Notes": "Apuntes del Aprendiz"
+            },
+            "2★": {
+                "Pocket Grimoire": "Grimorio de Bolsillo"
+            },
+            "3★": {
+                "Magic Guide": "Guía Mágica",
+                "Thrilling Tales of Dragon Slayers": "Cuentos de Cazadores de Dragones",
+                "TTDS": "Cuentos de Cazadores de Dragones",
+                "Otherworldly Story": "Historias de Otros Mundos",
+                "Emerald Orb": "Orbe Esmeralda",
+                "Twin Nephrite": "Nefrita Gemela"
+            },
+            "4★": {
+                "Favonius Codex": "Códice de Favonius",
+                "The Widsith": "Sinfonía de los Merodeadores",
+                "Sacrificial Fragments" : "Memorias de Sacrificios",
+                "Royal Grimoire": "Grimorio Real",
+                "Solar Pearl": "Perla Solar",
+                "Prototype Amber": "Prototipo Ámbar",
+                "Mappa Mare": "Carta Náutica",
+                "Blackcliff Agate": "Ágata del Peñasco Oscuro",
+                "Eye of Perception": "Ojo de la Perspicacia",
+                "Wine and Song": "Vino y Poesía",
+                "Frostbearer": "Frío Eterno",
+                "Dodoco Tales": "Cuentos de Dodoco",
+                "Hakushin Ring": "Anillo de Hakushin",
+                "Oathsworn Eye": "Ojo del Juramento",
+                "Wandering Evenstar": "Estrella Errabunda",
+                "Fruit of Fulfillment": "Fruto de la Culminación",
+                "Sacrificial Jade": "Jade Sacrificial",
+                "Flowing Purity": "Fluencia Impoluta",
+                "Ballad of the Boundless Blue": "Oda al Vasto Azul"
+            },
+            "5★": {
+                "Skyward Atlas": "Pergamino Celestial",
+                "Lost Prayer to the Sacred Winds": "Oración Perdida a los Vientos Sagrados",
+                "Lost Prayer": "Oración Perdida a los Vientos Sagrados",
+                "Memory of Dust": "Candado Terrenal",
+                "Jadefall's Splendor": "Centelleo Jadecaído",
+                "Jadefall´s Splendor": "Centelleo Jadecaído",
+                "Everlasting Moonglow": "Luna Inalterable",
+                "Kagura's Verity": "Axioma de la Kagura",
+                "Kagura´s Verity": "Axioma de la Kagura",
+                "A Thousand Floating Dreams": "Sueños de las Mil Noches",
+                "Tulaytullah's Remembrance": "Reminiscencia de Tulaytulah",
+                "Tulaytullah´s Remembrance": "Reminiscencia de Tulaytulah",
+                "Cashflow Supervision": "Supervisor Flujoáurico",
+                "Tome of the Eternal Flow": "Escrituras del Fluir Sempiterno",
+                "Crane's Echoing Call": "Reverberación de la Grulla",
+                "Crane´s Echoing Call": "Reverberación de la Grulla"
+            }
+        },
+        "Bow": {
+            "1★": {
+                "Hunter's Bow": "Arco del Cazador",
+                "Hunter´s Bow": "Arco del Cazador"
+            },
+            "2★": {
+                "Seasoned Hunter's Bow": "Arco del cazador estacional",
+                "Seasoned Hunter´s Bow": "Arco del cazador estacional"
+            },
+            "3★": {
+                "Raven Bow": "Arco de Cuervo",
+                "Sharpshooter's Oath": "Juramento del Arquero",
+                "Recurve Bow": "Arco Recurvo",
+                "Slingshot": "Tirachinas",
+                "Messenger": "Mensajero"
+            },
+            "4★": {
+                "Favonius Warbow": "Arco de Favonius",
+                "The Stringless": "Último Acorde",
+                "Sacrificial Bow": "Arco del Sacrificio",
+                "Royal Bow": "Arco Real",
+                "Rust": "Herrumbre",
+                "Prototype Crescent": "Prototipo Luz de Luna",
+                "Compound Bow": "Arco Compuesto",
+                "Blackcliff Warbow": "Arco del Peñasco Oscuro ",
+                "The Viridiscent Hunt": "Arco de la Cazadora Esmeralda",
+                "Alley Hunter": "Cazador del Callejón",
+                "Fading Twilight": "Desvanecimiento del Crepúsculo",
+                "Mitternachts Waltz": "Vals Nocturno",
+                "Windblume Ode": "Oda a las Flores de Viento",
+                "Hamayumi": "Masacrademonios",
+                "Predator": "Depredador",
+                "Mooun's Moon": "Luna de Mooun",
+                "Mooun´s Moon": "Luna de Mooun",
+                "King's Squire": "Vasalla Del Rey",
+                "King´s Squire": "Vasalla Del Rey",
+                "End of The Line": "Fin de las Aguas",
+                "Ibis Piercer": "Perforaibis",
+                "Scion of the Blazing Sun": "Descendientes del Sol Abrasador",
+                "Song of Stillness": "Serenata del Sosiego",
+                "Range Gauge": "Medidor Telemétrico"
+            },
+            "5★": {
+                "Skyward Harp":  "Alas Celestiales",
+                "Amo's Bow": "Arco de Amos",
+                "Amo´s Bow": "Arco de Amos",
+                "Elegy of The End": "Elegía del Fin",
+                "Polar Star": "Estrella Invernal",
+                "Aqua Simulacra": "Aqua Simulacra",
+                "Thundering Pulse": "Agitador del Relámpago",
+                "Hunter's Path": "Senda de la Cazadora",
+                "Hunter´s Path": "Senda de la Cazadora",
+                "The First Great Magic": "El Primer Gran Número de Magia"
+            }
+        },
+        "Artifacts": {
+            "3★": {
+                "Adventurer": "Aventurero",
+                "Lucky Dog": "Afortunado",
+                "Traveling Doctor": "Médica Itinerante"
+            },
+            "4★": {
+                "Resolution of Sojourner": "Corazón del Viajero",
+                "Brave Heart": "Corazón del Guerrero",
+                "Defender's Will": "Corazón del Guardián",
+                "Defender´s Will": "Corazón del Guardián",
+                "Tiny Miracle": "Milagro",
+                "Berserker": "Berserker",
+                "Martial Artist": "Artista Marcial",
+                "Instructor": "Instructor",
+                "Gambler": "Jugadora",
+                "The Exile": "Exiliado",
+                "Scholar": "Erudita",
+                "Prayers for Illumination": "Ritual de la Iluminación",
+                "Prayers for Destiny": "Ritual del Destino",
+                "Prayers for Wisdom": "Ritual de la Sabiduría",
+                "Prayers to Springtime": "Ritual de la Primavera"
+            },
+            "5★": {
+                "Blizzard Strayer": "Nómada del Invierno",
+                "Thundersoother": "Domador de Truenos",
+                "Lavawalker": "Virtuoso Corredor de Lava",
+                "Maiden Beloved": "Doncella Amada",
+                "Gladiator's Finale": "Final del Gladiador",
+                "Viridescent Venerer": "Sombra Verde Esmeralda",
+                "Wanderer's Troupe": "Orquesta del Errante",
+                "Thundering Fury": "Furia del Trueno",
+                "Crimson Witch of Flames": "Bruja Carmesí en Llamas",
+                "Noblesse Oblige": "Ritual Antiguo de la Nobleza",
+                "Bloodstained Chivalry": "Caballería Sanguinaria",
+                "Archaic Petra": "Petra Arcaica",
+                "Retracing Bolide": "Retroceso del Meteorito",
+                "Heart of Depth": "Corazón de las Profundidades",
+                "Tenacity of the Millelith" : "Tenacidad de la Geoarmada",
+                "Pale Flame": "Llamas Albinas",
+                "Shimenawa's Reminiscence": "Reminiscencia de la Purificación",
+                "Emblem of Severed Fate": "Emblema del Destino",
+                "Husk of Opulent Dreams": "Cáscara de Sueños Opulentos",
+                "Ocean-Hued Clam": "Perla Oceánica",
+                "Vermillion Hereafter": "Deceso del Cinabrio",
+                "Echoes of an Offering": "Eco del Sacrificio",
+                "Deepwood Memories": "Recuerdos del Bosque",
+                "Gilded Dreams": "Sueños Áureos",
+                "Desert Pavilion Chronicle": "Épica del Pabellón del Desierto",
+                "Flower of Paradise Lost": "Flor Olvidada del Paraíso",
+                "Nymph's Dream": "Sueño de la Ninfa",
+                "Nymph´s Dream": "Sueño de la Ninfa",
+                "Vourukasha's Glow": "Fulgor de Vurukasha",
+                "Vourukasha´s Glow": "Fulgor de Vurukasha",
+                "Marechaussee Hunter": "Cazador Fantasmal",
+                "Golden Troupe": "Compañía Dorada",
+                "Song of Days Past": "Son de Antaño",
+                "Nighttime Whispers in the Echoing Woods": "Murmullo del Bosque Reverberante"
+            }
+        }
+    }
+}
