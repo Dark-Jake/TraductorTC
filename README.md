@@ -12,15 +12,34 @@ Este es un script de Python que permite traducir palabras en un archivo Excel ut
 ## Uso
 
 1. Ejecuta el script `TraductorTC.py`.
-2. Selecciona el archivo de entrada que deseas traducir.
-3. Selecciona la ubicación y nombre del archivo de salida.
-4. Haz clic en "Aceptar" para iniciar el proceso de traducción.
-5. Una vez completado el proceso, se mostrará un mensaje de notificación y se reproducirá un sonido.
+2. Selecciona el Idioma de tu archivo Excel (original) `Inglés` o `Español`.
+3. Selecciona el archivo de entrada que deseas traducir.
+4. Selecciona la ubicación y nombre del archivo de salida.
+5. Haz clic en "Aceptar" para iniciar el proceso de traducción.
+6. Una vez completado el proceso, se mostrará un mensaje de notificación.
+
+7. Si no entendiste nada de lo anterior solo descarga la ultima version del ejecutable en el enlace de abajo.
+
+### [Link directo de Descarga](https://github.com/Dark-Jake/TraductorTC/releases/download/v2.0.0/TraductorTC.exe)
+
+O si buscas una version en especifico puesdes buscarla desde [aquí](https://github.com/Dark-Jake/TraductorTC/releases).
 
 ## Requisitos
 
 - Python 3.x
 - Bibliotecas Python: `tkinter`, `openpyxl`, `tqdm`
+<!--  -->
+(No necesarios si descargaste el ejecutable)
+
+```
+pip install tk
+```
+```
+pip install openpyxl
+```
+```
+pip install tqdm
+```
 
 ## Contribuciones
 

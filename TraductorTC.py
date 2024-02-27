@@ -1,9 +1,8 @@
 import threading
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog, messagebox, simpledialog
 from openpyxl import load_workbook
 from tqdm import tqdm
-from tkinter import messagebox
 import time
 import os
 import sys
@@ -11,8 +10,9 @@ import webbrowser
 import winsound
 import ctypes
 import json
+import re
 
-ctypes.windll.kernel32.SetConsoleTitleW("Translator by DarkJake v2.1")
+ctypes.windll.kernel32.SetConsoleTitleW("Translator by DarkJake v2.0.0")
 
 ascii_art = """
 +================================================================================================================+
@@ -75,7 +75,7 @@ def cargar_palabras_desde_json(archivo_json):
         print(f"Error al cargar el archivo JSON: {str(e)}")
         return {}
 
-def reemplazar_palabras(archivo_entrada, archivo_salida, palabras_a_reemplazar):
+def reemplazar_palabras(archivo_entrada, archivo_salida, palabras_a_reemplazar, idioma_origen, idioma_destino):
     wb = load_workbook(archivo_entrada)
 
     for sheet_name in wb.sheetnames:
@@ -101,10 +101,17 @@ def reemplazar_palabras(archivo_entrada, archivo_salida, palabras_a_reemplazar):
                         if isinstance(palabra_nueva, dict):
                             for categoria, subcategorias in palabra_nueva.items():
                                 for subcategoria, valor in subcategorias.items():
-                                    if subcategoria in cell_value_nuevo:
-                                        cell_value_nuevo = cell_value_nuevo.replace(subcategoria, valor)
+                                    if idioma_origen == "inglés":
+                                        if subcategoria.lower() in cell_value_lower:
+                                            cell_value_nuevo = cell_value_nuevo.replace(subcategoria, valor)
+                                    elif idioma_origen == "español":
+                                        if valor.lower() in cell_value_lower:
+                                            cell_value_nuevo = cell_value_nuevo.replace(valor, subcategoria)
                         else:
-                            cell_value_nuevo = cell_value_nuevo.replace(palabra_original, palabra_nueva)
+                            if idioma_origen == "inglés":
+                                cell_value_nuevo = cell_value_nuevo.replace(palabra_original, palabra_nueva)
+                            elif idioma_origen == "español":
+                                cell_value_nuevo = cell_value_nuevo.replace(palabra_nueva, palabra_original)
 
                         celdas_procesadas.add((row_idx, col_idx))
 
@@ -115,16 +122,44 @@ def reemplazar_palabras(archivo_entrada, archivo_salida, palabras_a_reemplazar):
     wb.save(archivo_salida)
 
 def reemplazar_palabras_tc():
+    def seleccionar_idioma(idioma):
+        nonlocal idioma_origen
+        idioma_origen = idioma
+        ventana.destroy()
+
+    idioma_origen = None
+
+    ventana = tk.Tk()
+    ventana.title("Seleccionar idioma origen")
+
+    etiqueta = tk.Label(ventana, text="¿Desde qué idioma desea traducir?")
+    etiqueta.pack()
+
+    boton_espanol = tk.Button(ventana, text="Español", command=lambda: seleccionar_idioma("español"))
+    boton_espanol.pack()
+
+    boton_ingles = tk.Button(ventana, text="Inglés", command=lambda: seleccionar_idioma("inglés"))
+    boton_ingles.pack()
+
+    ventana.mainloop()
+
+    if not idioma_origen:
+        messagebox.showerror("Error", "Por favor, seleccione un idioma.")
+        return
+
+    idioma_destino = "español" if idioma_origen == "inglés" else "inglés"
+    messagebox.showinfo("Idioma destino", f"Se traducirá desde {idioma_origen} a {idioma_destino}.")
+
     archivo_entrada, archivo_salida = obtener_archivos()
 
     if archivo_entrada and archivo_salida:
         archivo_json = 'palabras_a_reemplazar.json'
         palabras_a_reemplazar = cargar_palabras_desde_json(archivo_json)
 
-        reemplazar_palabras(archivo_entrada, archivo_salida, palabras_a_reemplazar)
+        reemplazar_palabras(archivo_entrada, archivo_salida, palabras_a_reemplazar, idioma_origen, idioma_destino)
 
         if hasattr(sys, '_MEIPASS'):
-                sound_path = os.path.join(sys._MEIPASS, "TaoAudio_mezcla.wav")
+            sound_path = os.path.join(sys._MEIPASS, "TaoAudio_mezcla.wav")
         else:
             sound_path = "TaoAudio_mezcla.wav"
 
