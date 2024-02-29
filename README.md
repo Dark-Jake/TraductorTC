@@ -1,6 +1,23 @@
-# Traductor de Excel para Teoriticarchers ツ
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://cdn.discordapp.com/avatars/723426524585525300/32151b2b8131d5d07ec9f3dbf6cbcb9e.webp?size=160" alt="Logo" width="80" height="80">
+  </a>
+
+  <h1 align="center">Traductor de Excel para Teoriticarchers ツ</h3>
+
+  <p align="center">
+    Este es un script de Python que permite traducir palabras en un archivo Excel utilizando un diccionario personalizado (palabras de TC).
+    <br />
+    <br />
+    <a href="https://discord.gg/excelverso-2-0-1104977284609343558">
+      <img src="https://img.shields.io/discord/1104977284609343558?color=4eb9a0&label=.gg%2Fexcelverso&logo=discord&style=for-the-badge" alt="Support"/>
+    </a>
+    <br />
+  </p>
+</div>
+
 <img src="https://imgur.com/L3MdRtJ.png">
-Este es un script de Python que permite traducir palabras en un archivo Excel utilizando un diccionario personalizado (palabras de TC).
 
 ## Características
 
