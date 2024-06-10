@@ -57,7 +57,9 @@
         "Haran Geppaku Futsu": "Luna Ondulante de Futsu",
         "Key of Khaj-Nisut": "Llave de la Coronación",
         "Light of Foliar Incision": "Clorofilo Refulgente",
-        "Splendor of Tranquil Waters": "Fulgor de las Aguas Calmas"
+        "Splendor of Tranquil Waters": "Fulgor de las Aguas Calmas",
+        "Uraku Misugiri": "Cortatelones de Urakusai",
+        "Absolution": "Expiadora"
       }
     },
     "Claymore": {
@@ -145,6 +147,7 @@
         "Missive Windspear": "Alabarda del Viento Epistolar",
         "Ballad of the Fjords": "Balada de los Fiordos",
         "Rightful Reward": "Retribución de la Justicia",
+        "Dialogues of the Desert Sages": "Discusión de los Sabios del Desierto",
         "Prospector's Drill": "Taladradora de Prospección",
         "Prospector´s Drill": "Taladradora de Prospección"
       },
@@ -157,7 +160,8 @@
         "Engulfing Lightning": "Luz del Segador",
         "Staff of the Scarlet Sands": "Báculo de las Arenas Escarlatas",
         "Crimson Moon's Semblance": "Semblante de la Luna Carmesí",
-        "Crimson Moon´s Semblance": "Semblante de la Luna Carmesí"
+        "Crimson Moon´s Semblance": "Semblante de la Luna Carmesí",
+        "Lumidouce Elegy": "Lumidouce Elegy"
       }
     },
     "Catalyst": {
@@ -256,6 +260,7 @@
         "Ibis Piercer": "Perforaibis",
         "Scion of the Blazing Sun": "Descendientes del Sol Abrasador",
         "Song of Stillness": "Serenata del Sosiego",
+        "Cloudforged": "Cimentador de Nubes",
         "Range Gauge": "Medidor Telemétrico"
       },
       "5★": {
@@ -331,7 +336,9 @@
         "Marechaussee Hunter": "Cazador Fantasmal",
         "Golden Troupe": "Compañía Dorada",
         "Song of Days Past": "Son de Antaño",
-        "Nighttime Whispers in the Echoing Woods": "Murmullo del Bosque Reverberante"
+        "Nighttime Whispers in the Echoing Woods": "Murmullo del Bosque Reverberante",
+        "Fragment of Harmonic Whimsy": "Fragmento de la Armonía Fantasiosa",
+        "Unfinished Reverie": "Ensoñación Inacabada"
       }
     }
   }
